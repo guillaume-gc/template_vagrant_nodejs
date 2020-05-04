@@ -16,7 +16,7 @@ Vagrant.configure("2") do |config|
     config.hostmanager.include_offline = true
 
     config.vm.define 'nodejs-box' do |node|
-        node.vm.hostname = 'template.local'
+        node.vm.hostname = 'nodejs.local'
         node.vm.network :private_network, ip: '192.168.42.42'
     end
 end
