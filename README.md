@@ -5,7 +5,7 @@ Template project with vagrant and nodeJS.
 
 - Clone the directory.
 - Install Vagrant, if necessary. See detailed guide for more information.
-- Install project Vagrant recommanded plugins, if necessary. See detaield guide for more information.
+- Install project Vagrant recommanded plugins, if necessary. See detailed guide for more information.
 - (optional) Modify files for your needs. See important files for more information.
 - Start vagrant.
 
