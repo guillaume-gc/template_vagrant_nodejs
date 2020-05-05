@@ -23,9 +23,9 @@ http://192.168.42.42
 ## bootstrap.sh
 
 Bash script used by Vagrant to modify the VM.
-Variables can be change for your needs. 
+Variables can be changed for your needs. 
 
-Warning: changing project or top domain names will change the project URL.
+Warning: changing project or top domain names will modify project URL.
 
 ## public/app.js
 
@@ -33,7 +33,7 @@ Template Node JS web application. Make sure the domain name is the same as the o
 
 ## Vagrantfile
 
-Vagrant box configuration file. Make sure to remove unused plugins, and the demain name and IP should be the same as the ones used by the project. 
+Vagrant box configuration file. Make sure to remove unused plugins. Demain name and IP should be the same as the ones used by the project. 
 
 # Detailed guide
 ## Vagrant
