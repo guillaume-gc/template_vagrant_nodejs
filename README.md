@@ -44,7 +44,11 @@ Be sure to install a VM supervisor such as VirtualBox.
 
 ### Recommanded Plugins
 
-After Vagrant is installed, open a command prompt and type the following commands, this will install the required plugins for Vagrant. If those plugins are not used, make sure to remove anything related to them in the Vagrantfile.
+If any of those plugins are not used, make sure to modify the Vagrantfile accordically. All commands below should be used in the project root directory.
+
+#### vagrant-host manager
+
+Automatically modify host files. See its [GitHub page](https://github.com/devopsgroup-io/vagrant-hostmanager) for more info.
 
 ```
 vagrant plugin install vagrant-hostmanager
@@ -52,21 +56,21 @@ vagrant plugin install vagrant-hostmanager
 
 ### Start VM 
 
-Move to the project root directory from a command prompt.
+All commands below should be used in the project root directory.
 
-Type the following command:
+To start vagrant:
 ```
 vagrant up
 ```
 
-A virtual machine which host the web application will be created. Vagrant will ask for admin rights. Those are required to modify the local host file.
+A virtual machine hosting the web application will be created. Vagrant will ask for admin rights, in order to modify the local host file.
 
-The VM can be removed with the following command:
+The vagrant box (VM) can be deleted with the following command:
 ```
 vagrant destroy
 ```
 
-The VM can be stop with the following command:
+The vagrfant box can be stopped with the following command:
 ```
 vagrant halt
 ```
@@ -83,4 +87,3 @@ Make sure nginx is running correctly, and the server blocks are okay. Use `sudo 
 
 ## `502 bad gateway`
 Make sure the Node JS server is running correctly.
-
