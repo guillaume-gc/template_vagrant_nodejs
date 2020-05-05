@@ -42,9 +42,9 @@ Install the [lastest version of Vagrant](https://www.vagrantup.com/downloads.htm
 
 Be sure to install a VM supervisor such as VirtualBox. 
 
-### Required Plugins
+### Recommanded Plugins
 
-After Vagrant is installed, open a command prompt and type the following commands, this will install the required plugins for Vagrant.
+After Vagrant is installed, open a command prompt and type the following commands, this will install the required plugins for Vagrant. If those plugins are not used, make sure to remove anything related to them in the Vagrantfile.
 
 ```
 vagrant plugin install vagrant-hostmanager
